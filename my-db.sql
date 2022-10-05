@@ -1,3 +1,6 @@
+ ----Create User table
+ ----
+ -----
  create table users(
  user_id int primary key not null,
  users_name varchar(10),
@@ -5,6 +8,7 @@
  role_id int,
  bill_no int
  );
+---- create there_role table
  create table there_role(
  role_id int primary key not null,
  role_name varchar(15)
